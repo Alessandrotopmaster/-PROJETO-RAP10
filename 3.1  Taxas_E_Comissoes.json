@@ -1,0 +1,26 @@
+{
+  "corridas": {
+    "carro": 20,
+    "moto": 18
+  },
+  "entregas": {
+    "motoboy": 15,
+    "carro_utilitario": 18,
+    "carga": 12
+  },
+  "vendas": {
+    "produto_novo": 10,
+    "produto_usado": 7,
+    "servico": 14,
+    "taxa_pagamento": 2.99
+  },
+  "recargas": {
+    "comissao": 4.5
+  },
+  "maquininha": {
+    "aluguel_mensal": 14.90,
+    "taxa_debito": 2.29,
+    "taxa_credito_vista": 3.89
+  },
+  "antecipacao_valores": 2.8
+}
