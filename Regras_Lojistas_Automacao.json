@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "modelo_referencia": "iFood",
+    "modo_exibicao": "resumo_simples",
+    "acesso_rapido": ["Pedidos", "Vendas", "Estoque", "Caixa", "Relatórios", "Falar com a Sayá"]
+  },
+  "automacao": {
+    "gerar_nota_automatica": true,
+    "atualizar_estoque_apos_venda": true,
+    "imprimir_pedido_confirmado": true,
+    "enviar_para_cozinha": true,
+    "verificar_sistema_a_cada_minutos": 5
+  },
+  "controles": {
+    "caixa": {
+      "exibir_lucro_bruto_liquido": true,
+      "conciliao_automatica_mercadopago": true
+    },
+    "funcionarios": {
+      "registro_ponto": true,
+      "calculo_comissao": true
+    },
+    "estoque": {
+      "aviso_reposicao_abaixo": 20,
+      "controle_validade": true
+    }
+  },
+  "ia_saya_lojista": {
+    "modelo": "Llama 3 + DeepSeek",
+    "linguagem": "simples e direta",
+    "pode_alterar_configuracoes": false,
+    "pode_corrigir_falhas": true,
+    "relatorio_diario_automatico": true
+  }
+}
