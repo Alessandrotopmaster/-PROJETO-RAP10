@@ -1,0 +1,8 @@
+{
+  "nome": "Sayá",
+  "modelo": "DeepSeek + Llama 3",
+  "modos": ["texto", "voz"],
+  "ativacao_rapida": true,
+  "integracoes": ["mapas", "pagamentos", "documentos", "alertas"],
+  "resposta_simples": true
+}
