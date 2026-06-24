@@ -1,0 +1,7 @@
+{
+  "cadastro_gratuito": true,
+  "plano_basico": {"comissao_entrega": 15},
+  "plano_frequente": {"valor_mensal": 49.90, "comissao": 12},
+  "integracao_ml_shopee": {"taxa_ativacao": 29.90},
+  "personalizacao": {"logo": true, "cores": true}
+}
