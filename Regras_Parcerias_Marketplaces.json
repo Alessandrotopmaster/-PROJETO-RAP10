@@ -1,0 +1,38 @@
+{
+  "afiliacao": {
+    "mercadolivre": {
+      "comissao_min": 6,
+      "comissao_max": 12,
+      "periodo_validade_link": 7,
+      "pagamento_em": "15 dias úteis"
+    },
+    "shopee": {
+      "comissao_min": 5,
+      "comissao_max": 10,
+      "periodo_validade_link": 7,
+      "pagamento_em": "20 dias úteis"
+    }
+  },
+  "logistica": {
+    "servicos_oferecidos": ["recebimento", "armazenagem", "separacao", "embalagem", "entrega"],
+    "taxas": {
+      "armazenamento_diario": 1.20,
+      "separacao_por_pedido": 1.80,
+      "embalagem": 0.90,
+      "entrega": "conforme tabela de distância RAP10"
+    },
+    "prazos": {
+      "processamento_max": "12h",
+      "entrega_urbana": "até 24h",
+      "entrega_regional": "até 48h"
+    },
+    "integracao_rap10": {
+      "distribuicao_automatica": true,
+      "rastreio_compartilhado": true,
+      "aviso_ao_cliente": true
+    }
+  },
+  "ia_suporte": {
+    "funcoes": ["verificar status de pedidos", "alertar estoque baixo", "calcular custos", "resolver falhas de sincronização"]
+  }
+}
