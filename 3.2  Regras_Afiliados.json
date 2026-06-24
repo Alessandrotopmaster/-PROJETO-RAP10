@@ -1,0 +1,8 @@
+{
+  "comissao_por_entregador_ativo": 15.00,
+  "comissao_mercadolivre": 6.0,
+  "comissao_shopee": 5.5,
+  "comissao_recarga": 2.0,
+  "saque_minimo": 20.00,
+  "prazo_pagamento": "7 dias úteis"
+}
